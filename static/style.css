@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  font-family: "Montserrat SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: auto;
+  background-color: #f5f5f5;
+}
+
+main {
+  padding: 20px;
+}
+
+.about {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.agents {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.agents h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.agents table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px; /* Add space above the table */
+}
+
+.agents th, .agents td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.subscribe {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subscribe form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subscribe label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.subscribe input[type="email"] {
+  flex: 2;
+  padding: 8px;
+  width: 100%;
+}
+
+.subscribe button {
+  flex: 1;
+  padding: 8px;
+  background-color: coral;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.subscribe button:hover {
+  background-color: darkorange;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+  vertical-align: middle;
+}
+.container{
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.menu{
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.menu li{
+  display: inline-block;
+}
+
+.menu li a{
+  display: inline-block;
+  color: black;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 10px;
+  transition: all .07s ease-in-out;
+}
+
+.menu li a:hover{
+  opacity: 1;
+}
+
+.wrap{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.support{
+   vertical-align: middle;
+   margin-left: 30px;
+   text-decoration: none;
+   padding: 25px;
+   background-color: coral;
+   color: white;
+   box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color:black;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.brand:hover{
+  color: coral;
+  transition: all .07s ease-in-out;
+}
+
+.Gekko{
+    margin: 30px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    clear: both;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.Gekko img{
+    max-width: 100%;
+    height: auto;
+}
+
+.Gekko h2{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.Gekko p{
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.Gekko .more{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Gekko .more:hover{
+    background-color: darkorange;
+}
+
+.Sunset{
+  margin: 30px;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  float: left;
+  clear: both;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.Sunset img{
+  max-width: 100%;
+  height: auto;
+}
+
+.Sunset h2{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.Sunset p{
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.Sunset .more{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Sunset .more:hover{
+    background-color: darkorange;
+}
+
+.Champions{
+  margin: 30px;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  float: left;
+  clear: both;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.Champions img{
+  max-width: 100%;
+  height: auto;
+}
+
+.Champions h2{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.Champions p{
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.Champions .more{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Champions .more:hover{
+    background-color: darkorange;
+}
+
+.Skin{
+  margin: 30px;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  float: left;
+  clear: both;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.Skin img{
+  max-width: 100%;
+  height: auto;
+}
+
+.Skin h2{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.Skin p{
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.Skin .more{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Skin .more:hover{
+    background-color: darkorange;
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    margin-right: 10px; /* Расстояние между иконками */
+}
+
+.social-icons li a {
+    display: block;
+    font-size: 24px; /* Размер иконок */
+    margin-top: 5px; /* Регулирование вертикального отступа */
+}

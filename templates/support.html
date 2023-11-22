@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Support</title>
+
+  <link type="image/x-icon" href="/static/pic/favicon.png" rel="shortcut icon">
+  <link type="Image/x-icon" href="/static/pic/favicon.png" rel="icon">
+
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    .support-form {
+      margin: 20px;
+      padding: 20px;
+      border: 2px solid #333;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+
+    .support-form input[type="email"] {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .support-form input[type="text"] {
+      width: 300px; /* Добавьте стили для текстового поля CAPTCHA */
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .support-form input[type="submit"] {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="brand">Valorant</a>
+      <div class="wrap">
+        <ul class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/skins">Skins</a></li>
+        </ul>
+        <a href="/support" class="support">Support</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="support-form">
+      <h2>Contact Support</h2>
+      <form method="post">
+        <input type="email" name="email" placeholder="Enter your email" required>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
